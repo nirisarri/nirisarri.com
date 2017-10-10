@@ -15,14 +15,14 @@ namespace nirisarri.com.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "Your application description page.";
+			ViewBag.Message = "This is my first production deployed app.";
 
 			return View();
 		}
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "email me....";
 
 			return View();
 		}
